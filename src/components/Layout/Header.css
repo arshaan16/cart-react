@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.parent{
+  position: fixed;
+  height:11vh;
+  width:100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  color:white ;
+  z-index: 10;
+}
+.foodTable{
+  width: 100vw;
+  height: 59vh;
+  z-index: 0;
+  top:10;
+  object-fit: cover;
+  transform: rotateZ(-4deg) translateY(-3.5rem) translateX(0.1rem);
+}
+h1{
+  padding-left: 1.5rem;
+}
